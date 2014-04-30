@@ -4,7 +4,7 @@ Min period set to 10ms. Period set by GATT client no more divided by 10 factor.
 
 ## Use
 To interact with Sensortag either use bluez tools (will be described later)
-or nodejs :
+or nodejs with following sensortag module https://github.com/Lahorde/node-sensortag :
 
 ``` 
 sudo DEBUG=test_gyro node test_gyro.js 
